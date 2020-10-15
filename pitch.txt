@@ -1,0 +1,6 @@
+Problema 
+tener problemas relacionados con la memoria o concentración a veces llamado niebla mental es un problema que nos impide mantenernos al 100% en las tareas que realizamos ya sea en tareas o en el trabajo escuchar una conversación  leer  estudiar o tomar un curso entonces que podríamos hacer  para evitar la distracción y procrastinación
+Solución
+Por lo cual les presento MindConcentr que pretende ayudar a las personas a mantener su concentración cuando realizan  ya sea tareas o trabajos importantes emitiendo alertas y mostrando consejos para que de forma interactiva pueda estar alerta y concentrado en lo que este realizando en el momento y evitar así la distracción en otras aplicaciones o paginas  cuenta con un contador que emite una alerta al momento que se deja de realizar la actividad y emitirá un consejo útil para mantener la concentración por medio de una animación atractiva y hacer clic para detener el contador  y así evitar perder el tiempo en cosas no indispensables
+Conclusión
+en conclusión seria una idea simple , divertida y practica  de poder mantener  la concentración y realizar nuestras actividades 100% concentrados dando lo mejor sin distracciones de ningún tipo
