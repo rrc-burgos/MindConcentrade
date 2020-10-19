@@ -1,0 +1,35 @@
+body{
+    background-color: aqua;
+}
+
+.main-section{
+    margin:0 auto;
+    margin-top: 25%;
+    padding: 0;
+}
+
+.modal-content{
+    background-color: gray;
+    opacity: .95;
+    padding: 0 20px;
+    box-shadow: 0px 0px 3px cyan;
+}
+
+.user-img{
+    margin-top: -50px;
+    margin-bottom: 35px;
+}
+
+.user-img img{
+    width: 100xp;
+    height: 100px;
+    box-shadow: 0px 0px 3px cyan;
+}
+
+footer{
+    background-color: darkslategray;
+}
+
+ul{
+    background-color: darkslategray;
+}
