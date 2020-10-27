@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login Pagina Procastinacion</title>
+
+    <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- FRAMEWORK BOOTSTRAP para el estilo de la pagina-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- Los iconos tipo Solid de Fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- MI  css-->
+    <link rel="stylesheet" type="text/css" href="procastinacion.css" th:href="@{/css/index.css}">
+    <link rel="stylesheet" href="css/procastinacion.css">
+    <link rel="stylesheet" href="fonts/style.css">
+
+
+    <!--inicio del nav-->
+
+
+    <ul id="ul" class="nav center">
+
+        <li class="nav-item">
+            <a href="inicio.html"> <img src="MUKAPS/logo.jpeg" class="circulo"> </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link active" href="inicio.html" style="color: black;"><br><span class="icon-home1"></span>
+                Inicio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="nosotros.html" style="color: black;"><br> Nosotros</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="vida.html" style="color: black;"><br> Estilos de vida</a>
+        </li>
+
+    </ul>
+    <!--final del nav-->
+</head>
+
+<body>
+    <form method="POST">
+        <div class="modal-dialog text-center">
+            <div class="col-sm-8 main-section">
+                <div class="modal-content">
+                    <div class="col-12 user-img">
+                        <img src="MUKAPS/images3.png">
+                    </div>
+                    <form class="col-12">
+                        <div class="form-group" id="USUARIO">
+                            <input type="text" class=form-control placeholder="USUARIO" id="USUARIO" />
+                        </div>
+                        <div class="form-group" id="CONTRASENA">
+                            <input type="password" class=form-control placeholder="CONTRASENA" id="CONTRASENA" />
+                        </div>
+                        <button type="submit" class="btn btn-dark"><i class="fas fa-sign-in-alt"></i><a
+                                href="activities.html"><span class="icon-user-solid-square"></span> INICIAR SESION
+                            </a></button>
+                    </form><br>
+                    <div class="col-12 forgot">
+                        <a href="login.html" style="color: black;">¿Aun no eres miembro?LOGIN</a>
+                    </div><br>
+                </div>
+            </div>
+        </div>
+    </form>
+    <br><br>
+    <br><br>
+    <br><br>
+    <!--Comienzo etiqueta footer-->
+    <footer id="footer" class="pb-4 pt-12">
+
+        <div class="row text-center">
+
+            <div class="col-12 col-md-6 col-lg">
+                <a href="terminos.html" style="color: black;"><b>Terminos y condiciones</b></a>
+            </div>
+            <div class="col-12 col-md-6 col-lg">
+                <a href="#" style="color: black;"><b>Ubicacion</b></a>
+            </div>
+            <div class="col-12 col-md-6 col-lg">
+                <a href="contacto.html" style="color: black;"><b>Contactos</b></a>
+            </div>
+            <div class="col-12 col-md-6 col-lg">
+                <a href="https://outlook.live.com/owa/" target="_blank" style="color: black;" target="_blank"><b>Email</b></a>
+            </div>
+            <div class="col-12 col-md-6 col-lg">
+                <a href="https://www.facebook.com/" target="_blank"><span class="icon-facebook"></span></a>
+                <a href="https://www.twitter.com/" target="_blank"><span class="icon-twitter-with-circle"></span> </a>
+                <a href="https://www.youtube.com/" target="_blank"> <span class="icon-youtube"></span> </a>
+                <a href="https://www.gmail.com/" target="_blank"> <span class="icon-google-with-circle"></span></a>
+
+            </div>
+
+
+        </div>
+        </div>
+    </footer><br>
+    <!--Final footer-->
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

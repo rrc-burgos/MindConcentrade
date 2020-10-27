@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login Pagina Procastinacion</title>
+
+    <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- FRAMEWORK BOOTSTRAP para el estilo de la pagina-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- Los iconos tipo Solid de Fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- MI  css-->
+    <link rel="stylesheet" type="text/css" href="procastinacion.css" th:href="@{/css/index.css}">
+    <link rel="stylesheet" href="css/procastinacion.css">
+    <link rel="stylesheet" href="fonts/style.css">
+
+
+    <!--inicio del nav-->
+
+
+    <ul id="ul" class="nav center">
+
+        <li class="nav-item">
+            <a href="inicio.html"> <img src="MUKAPS/logo.jpeg" class="circulo"> </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link active" href="inicio.html" style="color: black;"><br><span class="icon-home1"></span>
+                Inicio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="nosotros.html" style="color: black;"><br> Nosotros</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="vida.html" style="color: black;"><br> Estilos de vida</a>
+        </li>
+
+    </ul>
+
+</head>
+
+<!--final del nav-->
+
+<body>
+    <div class="container">
+        <br><br>
+        <h2>Seguro que tienes mucho que contarme</h2>
+        <p>
+            <br><br>
+            Me encanta recibir impresiones, dudas y comentarios a los artículos o a mis servicios. Por eso me encantaría
+            que me contactases para conocer tu historia.
+            <br><br>
+            Pero antes, echa un vistazo aquí por si ya puedo resolver tu duda:
+            <br><br>
+            ¿Quieres que trabajemos juntos? Si necesitas ayuda con tu proyecto, te invito a que veas mis cursos y
+            servicios para saber cómo puedo ayudarte. También puedes echar un ojo a la Escuela Online Inspira el Cambio.
+            <br><br>
+            ¿Estás interesado en una mentoría o acompañamiento personal? En mi página de servicios encontrarás una lista
+            de espera donde apuntarte para cuando abra nuevas plazas. Al inscribirte accederás a un cuestionario donde
+            te pediré datos para analizar tu caso e indicarte unas orientaciones iniciales para tu proyecto.
+            <br><br>
+            ¿Quieres conocer los primeros pasos para posicionarte como un experto en Desarrollo Personal y captar más
+            clientes? Descarga mi Guía Gratuita y conoce las claves para diferenciarte en el saturado mundo de Coaches y
+            terapeutas y recibe videos y contenidos gratuitos para mejorar tus ventas y visibilidad.
+            <br><br>
+            ¿Te gustaría publicar en este blog? Si quieres compartir información orientada al marketing para
+            profesionales del desarrollo personal, pincha aquí para conocer cómo es el proceso.
+            <br><br>
+            ¿Te gustaría hacerme una entrevista o que participara en tu congreso? Me encanta participar en este tipo de
+            propuestas siempre que puedo, así que te doy unas pistas para que me puedas hacer una propuesta que me
+            encante 🙂
+            <br><br>
+            ¡No te cortes! Escríbeme y así nos vamos conociendo.
+        </p>
+        <br><br><br>
+        <div class="modal-dialog text-center">
+            <div class="col-sm-8 main-section">
+                <div class="modal-content">
+                    <div class="col-12 user-img">
+                        <img src="image/img5.jpg">
+                    </div>
+                    <form class="col-12">
+                        <div class="form-group" id="user-group">
+                            <input type="text" class=form-control placeholder="Tu Nombre" />
+                        </div>
+                        <div class="form-group" id="contrasena-group">
+                            <input type="text" class=form-control placeholder="Tu Email" />
+                        </div>
+                        <div class="form-group" id="contrasena-group">
+                            <input type="text" class=form-control placeholder="En que te puedo ayudar" />
+                        </div>
+                        <button type="submit" class="btn btn-dark"><i class="fas fa-sign-in-alt"></i><a
+                                href="inicio.html"> Enviar </a></button>
+                    </form><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <br><br>
+
+    <!--Comienzo etiqueta footer-->
+    <footer id="footer" class="pb-4 pt-12">
+
+        <div class="row text-center">
+
+            <div class="col-12 col-md-6 col-lg">
+                <a href="terminos.html" style="color: black;"><b>Terminos y condiciones</b></a>
+            </div>
+            <div class="col-12 col-md-6 col-lg">
+                <a href="#" style="color: black;"><b>Ubicacion</b></a>
+            </div>
+            <div class="col-12 col-md-6 col-lg">
+                <a href="contacto.html" style="color: black;"><b>Contactos</b></a>
+            </div>
+            <div class="col-12 col-md-6 col-lg">
+                <a href="https://outlook.live.com/owa/" target="_blank" style="color: black;"><b>Email</b></a>
+            </div>
+            <div class="col-12 col-md-6 col-lg">
+                <a href="https://www.facebook.com/" target="_blank"><span class="icon-facebook"></span></a>
+                <a href="https://www.twitter.com/" target="_blank"><span class="icon-twitter-with-circle"></span> </a>
+                <a href="https://www.youtube.com/" target="_blank"> <span class="icon-youtube"></span> </a>
+                <a href="https://www.gmail.com/" target="_blank"> <span class="icon-google-with-circle"></span></a>
+
+            </div>
+
+
+        </div>
+        </div>
+    </footer><br>
+    <!--Final footer-->
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
